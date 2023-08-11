@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet&display=swap');
+
+body{
+    background-color: brown;
+    background-image: url('backtt.jpg');
+    background-size: cover;
+}
+
+table, th, td{
+    border: 1.5px solid rgb(41,54,141);
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    font-family: Handjet;
+    font-size: 20px;
+}
+
+#table{
+    align-items: center;
+}
+
+#timeTable{
+    margin: auto;
+}
+
+h1{
+    font-family: Handjet;
+    font-size: 80px;
+    color: yellow;
+    text-shadow: 5px 5px 3px rgb(41,54,141);
+}
+
+th{
+    background-color: rgb(9, 9, 9);
+    color: yellow;
+}
+
+td{
+    background-color: rgb(9, 9, 9);
+    color: yellow;
+}

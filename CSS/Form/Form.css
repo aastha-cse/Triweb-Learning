@@ -1,0 +1,31 @@
+body{
+    background-color: brown;
+    background-image: url('back.jpg');
+    background-size: cover;
+}
+
+.registerForm{
+    background-color: yellow;
+    background-image: url('front.jpg');
+    text-align: left;
+    width: fit-content;
+    margin: auto;
+    margin-top: 70px;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 0.6;
+    box-shadow: 15px 15px 12px;
+}
+
+.heading{
+    text-align: center;
+    color: bisque;
+}
+
+label{
+    color: bisque;
+}
+
+input{
+    border-radius: 5px;
+}
