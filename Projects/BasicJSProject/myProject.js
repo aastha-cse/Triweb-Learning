@@ -2,7 +2,8 @@ let text='', container1='', container2='', container3='', container4='';
 
 function writes(){
     text=document.getElementById('text').value;
-    alert('Choose where to write the text...');
+    if(text=='') alert('Enter the text you want to write');
+    else alert('Choose where to write the text...');
 }
 
 function moveOne(){
