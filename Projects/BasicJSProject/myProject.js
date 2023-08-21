@@ -1,7 +1,6 @@
 let text='', container1='', container2='', container3='', container4='';
 
-function write(){
-    console.log('works');
+function writes(){
     text=document.getElementById('text').value;
     alert('Choose where to write the text...');
 }
@@ -31,7 +30,6 @@ function moveFour(){
 }
 
 function erase(){
-    alert('working');
     container1.innerHTML="";
     container2.innerHTML="";
     container3.innerHTML="";
