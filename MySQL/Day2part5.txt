@@ -1,0 +1,26 @@
+//limit clause
+select * from students where class_id=5 limit 2
+
+//MAX() MIN()
+select MAX(salary) from teachers
+select MIN(salary) from teachers
+
+//COUNT()
+select count(id) as numberOfTeachers from teachers
+
+//AVG()
+select avg(salary) as averageSalary from teachers
+
+//SUM()
+select sum(salary) as totalSalary from teachers
+
+//LIKE operator
+select * from students where student_name like 'A%'
+select * from students where student_name like 'S_chin'
+
+//IN and NOT IN operator
+select * from students where class_id in (5,6)
+select MAX(salary) from teachers where salary not in(select MAX(salary) from teachers)
+
+//BETWEEN operator
+select * from teachers where salary between 10000 and 40000
