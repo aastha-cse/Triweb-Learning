@@ -8,3 +8,6 @@ insert into students values(1,'Aastha','1','345'),(2,'Agrim','2','456'),(3,'Priy
 
 //update data
 update classes set class_name='class 3' where id=1
+
+//delete table
+drop table teacher
