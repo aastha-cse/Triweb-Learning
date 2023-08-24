@@ -1,0 +1,1 @@
+function pass(num1,num2)
