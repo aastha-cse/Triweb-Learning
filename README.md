@@ -41,6 +41,9 @@ git push origin <branch>
   - 📂 **MySQL**
     - Contains practice files of MySQL queries.
 
+  - 📂 **ES6**
+    - Contains practice files of ES6.
+
 ## HTML Practice
 
 In the `HTML` directory, I've worked on  HTML and projects. The projects include:
@@ -75,6 +78,13 @@ In the `MySQL` directory, I've explored MySQL and its usage in web development. 
 - `createTable.txt`: Creating and querying a sample database and tables.
 - `CRUD.txt`: Demonstrating basic SQL operations like INSERT, UPDATE, DELETE.
 - `joins.txt`: Demonstrating types of joins like INNER, LEFT, RIGHT.
+
+## ES6 Practice
+In the `ES6` directory, I've practiced commonly used features of ES6. Some of the examples include:
+  
+- `math.js`: Explored some new math methods.
+- `spread.js`: Demonstrating the use of spread operator.
+- `propertyShorthand.js`: Demonstrating shorthand syntax for objects.
 
 Feel free to explore each directory to see the code and projects I've been working on!
 
