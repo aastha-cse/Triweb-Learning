@@ -1,12 +1,33 @@
 
 const db=require('../util/database');
-module.exports.insert=(userData)=>{
+module.exports.insert=async(userData)=>{
     // console.log(userData);
-
-    let query="insert into `user`(`name`,`email`,`password`,`remark`) values (?,?,?,?)";
-    db.execute(query,[userData.name,userData.email,userData.password,userData.remark])
-    //execute
-
+    
+    let id=0;
+    try{
+        let query="insert into `user`(`name`,`email`,`password`,`remark`) values (?,?,?,?)";
+        
+        //execute
+        let result=await db.execute(query,[userData.name,userData.email,userData.password,userData.remark]);
+        id=result[0].insertId;
+    }catch(error){
+        console.log(error);
+        return false;
+    }
     //return result 
-    return;
+    return id;
 }
+
+module.exports.get=async(userData)=>{
+        let retData='';
+        try{
+            let query="select * from `user` where id=?";
+            let result=await db.execute(query,[userData.id]);
+            retData=result[0][0];
+        }catch(error){
+            console.log(error);
+        }
+        return retData;
+}
+
+   
