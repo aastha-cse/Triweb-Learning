@@ -2,9 +2,10 @@ const userModel=require('../models/user');
 
 //register
 module.exports.register=async(req,res)=>{
-    let insertedId=await userModel.insert(req.body);
-    if(insertedId){
-        res.send({status:"success",data:{id:insertedId}});
+    let result=await userModel.create(req.body);
+
+    if(result.dataValues.id){
+        res.send({status:"success",data:{id:result.dataValues.id}});
     }else{
         res.send({status:"error",message:"User registration failed"});
     }
