@@ -33,10 +33,21 @@ module.exports.get=async(userData)=>{
 module.exports.update=async(userData)=>{
     try{
         let query="update `user` set `password`=? where id=?";
-        let result=await db.execute(query,[userData.password,userData.id]);
+        await db.execute(query,[userData.password,userData.id]);
         return true;
     }catch(error){
         console.log(error);
         return false;
     }
-}  
+} 
+
+module.exports.delete=async(userData)=>{
+    try{
+        let query="delete from `user` where id=?";
+        await db.execute(query,[userData.id]);
+        return true;
+    }catch(error){
+        console.log(error);
+        return false;
+    }
+} 
