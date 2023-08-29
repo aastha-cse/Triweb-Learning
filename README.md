@@ -43,6 +43,9 @@ git push origin <branch>
 
   - 📂 **ES6**
     - Contains practice files of ES6.
+  
+  - 📂 **NodeJS**
+    - Contains practice files of Node.js.
 
 ## HTML Practice
 
@@ -85,6 +88,13 @@ In the `ES6` directory, I've practiced commonly used features of ES6. Some of th
 - `math.js`: Explored some new math methods.
 - `spread.js`: Demonstrating the use of spread operator.
 - `propertyShorthand.js`: Demonstrating shorthand syntax for objects.
+
+## NodeJS Practice
+In the `NodeJS` directory, I've practiced creating routes, handling requests, connecting to databases and performing CRUD operations. 
+I've used Postman - a popular collaboration platform for API development that simplifies the process of building, testing, and documenting APIs. Some of the examples include:
+  
+- `calculator.js`: Demonstrating the methods to create routers and controllers and perform mathematical operations.
+- `user.js`: Demonstrating the CRUD operations performed with the help of sequelize library.
 
 Feel free to explore each directory to see the code and projects I've been working on!
 
