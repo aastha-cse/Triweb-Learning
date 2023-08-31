@@ -1,6 +1,6 @@
-const addUserToDb=(userName,password)=>{
+const addUserToDb=(userName:string,password:string)=>{
     console.log(userName,password);
     return "Done";
 }
 
-module.exports={addUserToDb};
+export {addUserToDb};

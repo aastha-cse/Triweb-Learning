@@ -1,6 +1,8 @@
-const {addUserToDb}=require('../models/user');
+import { Request, Response } from 'express';
 
-const registerUser=(req,res)=>{
+import {addUserToDb} from '../models/user';
+
+const registerUser=(req:Request,res:Response)=>{
     const userName="Aastha";
     const password="password";
 
@@ -8,4 +10,4 @@ const registerUser=(req,res)=>{
     res.send(result);
 }
 
-module.exports={registerUser};
+export {registerUser};

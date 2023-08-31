@@ -1,9 +1,10 @@
-const express =require('express');
-const userRoute=require('./routes/user');
+import express from 'express';
+import userRoute from './routes/user';
+import { Request, Response } from 'express';
 
 const app =express();
 
-app.get('/', (req,res)=>{
+app.get('/', (req:Request,res:Response)=>{
     res.send("hello");
 });
 
