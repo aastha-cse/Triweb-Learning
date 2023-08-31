@@ -9,4 +9,4 @@ app.get('/', (req,res)=>{
 
 app.use('/user',userRoute);
 
-app.listen(3000);
+app.listen(process.env.PORT);
