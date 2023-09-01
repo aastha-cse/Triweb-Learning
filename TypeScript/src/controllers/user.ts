@@ -49,4 +49,23 @@ const mergeInterface=(req:Request,res:Response)=>{
     const aastha:Student={name:"Aastha", age:21, level:"BTech"};
 }
 
+class Employee{
+    ename:String;
+    salary:Number;
+    constructor(name:String,salary:Number){
+        this.ename=name;
+        this.salary=salary;
+    }
+}
+
+class EmployeeWithAge extends Employee{
+    age:Number=0;
+}
+
+const relatedToClass=(req:Request,res:Response)=>{
+    const agrim=new EmployeeWithAge("Agrim",200000);
+    agrim.salary=300000;
+    agrim.age=2 8;
+}
+
 export {registerUser,checkTypesAndInterface};
