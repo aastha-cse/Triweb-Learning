@@ -1,13 +1,52 @@
 import { Request, Response } from 'express';
 
-import {addUserToDb} from '../models/user';
+import {addUserToDb,updateUserData} from '../models/user';
 
 const registerUser=(req:Request,res:Response)=>{
-    const userName="Aastha";
-    const password="password";
+    const userName:string="Aastha";
+    const password:string="password";
+    const age:number=18;
 
-    const result=addUserToDb(userName,password);
+    const result=addUserToDb(userName,password,age);
     res.send(result);
 }
 
-export {registerUser};
+const checkTypesAndInterface=(req:Request,res:Response)=>{
+    interface Point{
+        x:number,
+        y:number
+    }
+
+    let x:Point={x:1, y:4};
+    console.log(x);
+
+    //type status=true|false;
+    type lockedState="locked"|"unlocked";
+    let xstate:lockedState="locked";
+
+    const myUser={
+        id:1,
+        uname:"Aastha",
+        password:"pass",
+        age:20,
+        is_active:false,
+        accountStatus:4
+    }
+    const result=updateUserData(myUser);
+    res.send(result);
+}
+
+interface Student{
+    name:String,
+    age:Number
+}
+
+interface Student{
+    level:String
+}
+
+const mergeInterface=(req:Request,res:Response)=>{
+    const aastha:Student={name:"Aastha", age:21, level:"BTech"};
+}
+
+export {registerUser,checkTypesAndInterface};
