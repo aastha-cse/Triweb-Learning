@@ -65,7 +65,7 @@ class EmployeeWithAge extends Employee{
 const relatedToClass=(req:Request,res:Response)=>{
     const agrim=new EmployeeWithAge("Agrim",200000);
     agrim.salary=300000;
-    agrim.age=2 8;
+    agrim.age=28;
 }
 
 export {registerUser,checkTypesAndInterface};
