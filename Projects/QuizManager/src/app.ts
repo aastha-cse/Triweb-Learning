@@ -1,11 +1,10 @@
 import express from 'express';
 import mongoose from 'mongoose';
-
 import UserRoute from './routes/user';
 
 const app=express();
 
-const connectionString="mongodb+srv://guptaaastha824:1234@cluster0.xdho994.mongodb.net/quizzdb?retryWrites=true&w=majority";
+const connectionString="mongodb+srv://guptaaastha824:1234@cluster0.xdho994.mongodb.net/quizdb?retryWrites=true&w=majority";
 
 app.use(express.json());
 
@@ -15,6 +14,19 @@ app.get('/',(req,res)=>{
 
 app.use('/user',UserRoute);
 
-mongoose.connect(connectionString);
+const mongooseOptions = {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+};
 
-app.listen(3000);
+
+mongoose.connect(connectionString, mongooseOptions as mongoose.ConnectOptions)
+    .then(() => {
+        app.listen(3000, () => {
+            console.log('Server Connected');
+        });
+    })
+    .catch((err) => {
+        console.error('Error connecting to MongoDB:', err);
+    });
+
