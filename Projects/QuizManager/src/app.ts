@@ -4,7 +4,7 @@ import UserRoute from './routes/user';
 
 const app=express();
 
-const connectionString="mongodb+srv://guptaaastha824:1234@cluster0.xdho994.mongodb.net/quizdb?retryWrites=true&w=majority";
+const connectionString = process.env.CONNECTION_STRING || "";
 
 app.use(express.json());
 
@@ -22,7 +22,7 @@ const mongooseOptions = {
 
 mongoose.connect(connectionString, mongooseOptions as mongoose.ConnectOptions)
     .then(() => {
-        app.listen(3000, () => {
+        app.listen(process.env.PORT, () => {
             console.log('Server Connected');
         });
     })
