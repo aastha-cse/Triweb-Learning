@@ -1,6 +1,7 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import UserRoute from './routes/user';
+import authRoute from './routes/auth';
 
 const app=express();
 
@@ -13,6 +14,8 @@ app.get('/',(req,res)=>{
 })
 
 app.use('/user',UserRoute);
+
+app.use('/auth',authRoute);
 
 const mongooseOptions = {
     useNewUrlParser: true,
