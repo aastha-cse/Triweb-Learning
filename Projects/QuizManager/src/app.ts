@@ -10,7 +10,7 @@ const app=express();
 interface ReturnResponse{
     status:"success" | "error",
     message:String,
-    data:{}
+    data:{} | []
 }
 
 const connectionString = process.env.CONNECTION_STRING || "";
