@@ -1,4 +1,4 @@
-import { Request, Response } from "express";
+import { NextFunction, Request, Response } from "express";
 
 import User from '../models/user';
 
@@ -8,7 +8,7 @@ interface ReturnResponse{
     data:{}
 }
 
-const getUser=async (req:Request,res:Response)=>{
+const getUser=async (req:Request,res:Response, next:NextFunction)=>{
     let resp:ReturnResponse;
     try {
         if(req.userId!=req.params.userId){
@@ -26,13 +26,12 @@ const getUser=async (req:Request,res:Response)=>{
             res.send(resp);
         }
     } catch (error) {
-        resp={status:"error",message:"Something went wrong",data:{}};
-        res.status(500).send(resp);
+        next(error);
     }
 }
 
 
-const updateUser=async (req:Request, res:Response)=>{
+const updateUser=async (req:Request, res:Response, next:NextFunction)=>{
     let resp:ReturnResponse;
     try {
         if(req.userId!=req.body._id){
@@ -52,9 +51,8 @@ const updateUser=async (req:Request, res:Response)=>{
             res.send(resp);
         }
     } catch (error) {
-        resp={status:"error",message:"Something went wrong",data:{}};
-        res.status(500).send(resp);
+        next(error);
     }
 }
 
-export {getUser, updateUser};
+export {getUser, updateUser}; 

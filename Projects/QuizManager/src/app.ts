@@ -1,4 +1,5 @@
 import express from 'express';
+import { Request, Response, NextFunction } from 'express';
 import mongoose from 'mongoose';
 import UserRoute from './routes/user';
 import authRoute from './routes/auth';
@@ -24,6 +25,11 @@ app.get('/',(req,res)=>{
 app.use('/user',UserRoute);
 
 app.use('/auth',authRoute);
+
+app.use((err:Error, req:Request, res:Response, next:NextFunction)=>{
+    console.log(err);
+    // res.send("yes error");
+})
 
 const mongooseOptions = {
     useNewUrlParser: true,
