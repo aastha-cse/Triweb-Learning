@@ -1,5 +1,6 @@
 import { Request, Response, NextFunction } from "express-serve-static-core";
 import jwt from "jsonwebtoken";
+import ProjectError from "../helper/error";
 
 const isAuthenticated=(req:Request,res:Response, next:NextFunction)=>{
 
@@ -7,7 +8,9 @@ const isAuthenticated=(req:Request,res:Response, next:NextFunction)=>{
         const authHeader=req.get('Authorization');
     
         if(!authHeader){
-            res.status(401).send("not authenticated");
+            const err=new ProjectError("Not Authenticated");
+            err.statusCode=401;
+            throw err;
         }
         else{
             const token=authHeader.split(' ')[1];
@@ -16,11 +19,15 @@ const isAuthenticated=(req:Request,res:Response, next:NextFunction)=>{
             try {
                 decodedToken=<any>jwt.verify(token, "myverysecretkey");
             } catch (error) {
-                throw new Error("not authenticated");
+                const err=new ProjectError("Not Authenticated");
+                err.statusCode=401;
+                throw err;
             }
     
             if(!decodedToken){
-                throw new Error("not authenticated");
+                const err=new ProjectError("Not Authenticated");
+                err.statusCode=401;
+                throw err;
             }
             req.userId=decodedToken.userId;
             next();
