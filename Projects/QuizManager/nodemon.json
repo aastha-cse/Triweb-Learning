@@ -1,9 +1,0 @@
-{
-    "env":{
-        "CONNECTION_STRING":"mongodb+srv://guptaaastha824:1234@cluster0.xdho994.mongodb.net/quizdb?retryWrites=true&w=majority",
-        "PORT":3000
-    },
-    "watch":["src"],
-    "ext":"ts,json",
-    "exec":"ts-node ./src/app.ts"
-}
