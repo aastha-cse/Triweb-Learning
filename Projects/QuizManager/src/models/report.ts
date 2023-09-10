@@ -24,6 +24,6 @@ const resultSchema=new schema(
     {timestamps:true}
 );
 
-const Result =mongoose.model('Result',resultSchema);
+const Report =mongoose.model('Report',resultSchema);
 
-export default Result;
+export default Report;
