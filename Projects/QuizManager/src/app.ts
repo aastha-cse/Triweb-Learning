@@ -4,6 +4,7 @@ import mongoose from 'mongoose';
 import UserRoute from './routes/user';
 import authRoute from './routes/auth';
 import quizRoute from './routes/quiz';
+import examRoute from './routes/exam';
 import ProjectError from './helper/error';
 
 const app=express();
@@ -35,6 +36,8 @@ app.use('/user',UserRoute);
 app.use('/auth',authRoute);
 
 app.use('/quiz',quizRoute);
+
+app.use('/exam',examRoute);
 
 app.use((err:ProjectError, req:Request, res:Response, next:NextFunction)=>{
     let message:String;
