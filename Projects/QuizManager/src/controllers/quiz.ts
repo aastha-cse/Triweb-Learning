@@ -61,6 +61,11 @@ const updateQuiz=async (req:Request, res:Response, next:NextFunction) =>{
             err.statusCode=403;
             throw err;
         }
+        if(quiz.is_published){
+            const err=new ProjectError("You cannot update published quiz");
+            err.statusCode=405;
+            throw err;
+        }
         quiz.name=req.body.name;
         quiz.questions_list=req.body.questions_list;
         quiz.answers=req.body.answers;
@@ -85,6 +90,11 @@ const deleteQuiz=async (req:Request, res:Response, next:NextFunction) =>{
         if(req.userId!==quiz.created_by.toString()){
             const err=new ProjectError("You are not Authorized");
             err.statusCode=403;
+            throw err;
+        }
+        if(quiz.is_published){
+            const err=new ProjectError("You cannot delete published quiz");
+            err.statusCode=405;
             throw err;
         }
         await Quiz.deleteOne({_id:quizId});
