@@ -1,10 +1,23 @@
+import { useState } from "react";
 import FirstComponent from "./components/FirstComponent";
+import Backdrop from "./components/Backdrop";
 
 function App() {
-  return (
+  const [modalOpen, setModalOpen]=useState(false);
+  const modalCloseHandler=()=>{
+    setModalOpen(false);
+  }
+
+  const modalOpenHandler=()=>{
+    setModalOpen(true);
+  }
+  return(
     <div>
-      <FirstComponent owner='Aastha' reason='demo'/>
-      <FirstComponent owner='Agrim' reason='testing'/>
+      <h1>hiiii</h1>
+      {modalOpen?<FirstComponent owner='Aastha' reason='demo' closeModal={modalCloseHandler}/>:null}
+      {modalOpen?<Backdrop/>:null}
+      <button onClick={modalOpenHandler}>Open</button>
+      
     </div>
   );
 }
