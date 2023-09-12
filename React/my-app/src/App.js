@@ -1,10 +1,10 @@
+import FirstComponent from "./components/FirstComponent";
+
 function App() {
   return (
     <div>
-      <div>
-        <h1>My App</h1>
-        <p>this is demo</p>
-      </div>
+      <FirstComponent owner='Aastha' reason='demo'/>
+      <FirstComponent owner='Agrim' reason='testing'/>
     </div>
   );
 }
