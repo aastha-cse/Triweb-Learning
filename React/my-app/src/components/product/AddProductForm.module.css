@@ -21,7 +21,16 @@
     width: 100%;
 }
 
-.btn{
-    margin-top: 1rem;
-    text-align: right;
+.btn button{
+    background-color:rgb(224, 104, 104);
+    color: #531010;
+    border-radius: 6px;
+    border: none;
+    height: 27px;
+    margin-bottom: 14px;
+}
+
+.btn button:hover{
+    color:bisque;
+    border:15px #531010;
 }
