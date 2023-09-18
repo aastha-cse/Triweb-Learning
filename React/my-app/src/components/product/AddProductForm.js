@@ -1,4 +1,4 @@
-import {useRef} from 'react';
+import { useRef, props } from 'react';
 import Styles from './AddProductForm.module.css';
 import CustomWrapper from '../layouts/Wrapper.js';
 
@@ -20,6 +20,8 @@ function AddProductForm(){
             price,
             description
         }
+
+        props.addProductHandler(product);
     }
 
 
