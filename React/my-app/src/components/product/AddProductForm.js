@@ -1,8 +1,8 @@
-import { useRef, props } from 'react';
+import { useRef } from 'react';
 import Styles from './AddProductForm.module.css';
 import CustomWrapper from '../layouts/Wrapper.js';
 
-function AddProductForm(){
+function AddProductForm(props){
     const product_name_ref=useRef();
     const image_ref=useRef();
     const price_ref=useRef();
