@@ -1,23 +1,23 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import Square from "./Square";
 import Styles from "./Board.module.css";
 
 const Board = () => {
   const [state, setState] = useState(Array(9).fill(null));
   const [isXTurn, setIsXTurn] = useState(true);
+  const[isWinner, setIsWinner]=useState(null);
 
+  const winnerLogic = [
+    [0, 1, 2],
+    [3, 4, 5],
+    [6, 7, 8],
+    [0, 3, 6],
+    [1, 4, 7],
+    [2, 5, 8],
+    [0, 4, 8],
+    [2, 4, 6]
+  ];
   const checkWinner = () => {
-    const winnerLogic = [
-      [0, 1, 2],
-      [3, 4, 5],
-      [6, 7, 8],
-      [0, 3, 6],
-      [1, 4, 7],
-      [2, 5, 8],
-      [0, 4, 8],
-      [2, 4, 6]
-    ];
-
     for (let logic of winnerLogic) {
       const [a, b, c] = logic;
       if (state[a] !== null && state[a] === state[b] && state[a] === state[c]) {
@@ -25,10 +25,12 @@ const Board = () => {
       }
     }
 
-    return false;
+    return null;
   };
 
-  const isWinner = checkWinner();
+  const checkDraw =()=>{
+    return state.filter((square) => square===null).length===0;
+  };
 
   const handleClick = (index) => {
     if (state[index] !== null) {
@@ -43,13 +45,29 @@ const Board = () => {
 
   const handleReset = () => {
     setState(Array(9).fill(null));
+    setIsWinner(null);
+    setIsXTurn(true);
   };
+
+  useEffect(()=>{
+    const winner=checkWinner();
+    if(winner){
+      setIsWinner(winner);
+    }
+    else if(checkDraw()){
+      setIsWinner("Draw");
+    }
+  },[state]);
 
   return (
     <div className={Styles.board}>
       {isWinner ? ( 
         <>
+        {isWinner==="Draw" ? (
+          <p className={Styles.winner}>It's a Draw!</p>
+        ):(
           <p className={Styles.winner}>{isWinner} won the game{" "}</p>
+        )}
           <button onClick={handleReset} className={Styles.btn}>Play Again</button>
         </>
       ) : (
