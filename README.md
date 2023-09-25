@@ -27,36 +27,26 @@ git push origin <branch>
 ## Repository Structure
 - 📂 **Triweb-Learning**
   - 📂 **HTML**
-    - Contains HTML projects.
+    - Contains HTML projects. [Visit](Triweb-Learning/HTML)
 
   - 📂 **CSS**
-    - Added CSS to the HTML projects.
+    - Added CSS to the HTML projects. [Visit](Triweb-Learning/CSS)
   
   - 📂 **JavaScript**
-    - Contains JavaScript practice files.
+    - Contains JavaScript practice files. [Visit](Triweb-Learning/JavaScript)
   
   - 📂 **Projects**
-    - Contains HTML, CSS and JavaScript basic projects.
+    - Contains HTML, CSS and JavaScript basic projects. [Visit](Triweb-Learning/Projects)
   
   - 📂 **MySQL**
-    - Contains practice files of MySQL queries.
+    - Contains practice files of MySQL queries. [Visit](Triweb-Learning/MySQL)
 
   - 📂 **ES6**
-    - Contains practice files of ES6.
+    - Contains practice files of ES6. [Visit](Triweb-Learning/ES6)
   
   - 📂 **NodeJS**
-    - Contains practice files of Node.js.
+    - Contains practice files of Node.js. [Visit](Triweb-Learning/NodeJS)
 
-## HTML Practice
-
-In the `HTML` directory, I've worked on  HTML and projects. The projects include:
-  
-- `Form.html`: A simple registration form.
-- `TimeTable.html`: A personal time-table.
-
-## CSS Practice
-
-In the `CSS` directory, I've added CSS to the  HTML projects to improve my front-end development skills.
   
 ## JavaScript Practice
 
