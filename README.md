@@ -27,25 +27,33 @@ git push origin <branch>
 ## Repository Structure
 - 📂 **Triweb-Learning**
   - 📂 **HTML**
-    - Contains HTML projects. [Visit](Triweb-Learning/HTML)
+    - Contains HTML projects. [Visit](https://github.com/aastha-cse/Triweb-Learning/tree/main/HTML)
 
   - 📂 **CSS**
-    - Added CSS to the HTML projects. [Visit](Triweb-Learning/CSS)
+    - Added CSS to the HTML projects. [Visit](https://github.com/aastha-cse/Triweb-Learning/tree/main/CSS)
   
   - 📂 **JavaScript**
-    - Contains JavaScript practice files. [Visit](Triweb-Learning/JavaScript)
+    - Contains JavaScript practice files. [Visit](https://github.com/aastha-cse/Triweb-Learning/tree/main/JavaScript)
   
   - 📂 **Projects**
-    - Contains HTML, CSS and JavaScript basic projects. [Visit](Triweb-Learning/Projects)
+    - Contains HTML, CSS and JavaScript basic projects. [Visit](https://github.com/aastha-cse/Triweb-Learning/tree/main/Projects)
   
   - 📂 **MySQL**
-    - Contains practice files of MySQL queries. [Visit](Triweb-Learning/MySQL)
+    - Contains practice files of MySQL queries. [Visit](https://github.com/aastha-cse/Triweb-Learning/tree/main/MySQL)
 
   - 📂 **ES6**
-    - Contains practice files of ES6. [Visit](Triweb-Learning/ES6)
+    - Contains practice files of ES6. [Visit](https://github.com/aastha-cse/Triweb-Learning/tree/main/ES6)
   
   - 📂 **NodeJS**
-    - Contains practice files of Node.js. [Visit](Triweb-Learning/NodeJS)
+    - Contains practice files of Node.js. [Visit](https://github.com/aastha-cse/Triweb-Learning/tree/main/NodeJS)
+
+  - 📂 **Typescript**
+    - Contains practice files of Typescript. [Visit](https://github.com/aastha-cse/Triweb-Learning/tree/main/TypeScript)
+
+  - 📂 **React**
+    - Contains practice files of React.js. [Visit](https://github.com/aastha-cse/Triweb-Learning/tree/main/React)
+
+
 
   
 ## JavaScript Practice
