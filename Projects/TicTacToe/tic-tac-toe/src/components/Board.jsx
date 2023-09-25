@@ -44,20 +44,20 @@ const Board = () => {
   const handleReset = () => {
     setState(Array(9).fill(null));
   };
-  
+
   return (
     <div className={Styles.board}>
-      {isWinner ? (
+      {isWinner ? ( 
         <>
-          {isWinner} won the game{" "}
-          <button onClick={handleReset}>Play Again</button>
+          <p className={Styles.winner}>{isWinner} won the game{" "}</p>
+          <button onClick={handleReset} className={Styles.btn}>Play Again</button>
         </>
       ) : (
         <>
-          <h4>Player {isXTurn ? "X" : "O"} please move</h4>
+          <h4 className={Styles.heading}>Player {isXTurn ? "X" : "O"} please move</h4>
       <div className={Styles.row}>
-        <Square onClick={() => handleClick(0)} value={state[0]} />
-        <Square onClick={() => handleClick(1)} value={state[1]} />
+        <Square onClick={() => handleClick(0)} value={state[0]}/>
+        <Square onClick={() => handleClick(1)} value={state[1]}/>
         <Square onClick={() => handleClick(2)} value={state[2]} />
       </div>
       <div className={Styles.row}>

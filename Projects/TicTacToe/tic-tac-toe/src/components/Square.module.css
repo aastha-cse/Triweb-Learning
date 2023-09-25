@@ -5,4 +5,23 @@
     display: flex;
     justify-content: center;
     align-items: center; 
+    border: 2px solid rgb(49, 237, 227);
+    border-radius: 7px;
+    margin: 4px;
+    box-shadow: 3px 3px 8px rgb(49, 237, 227);
+}
+
+.squares:hover{
+    box-shadow: 3px 3px 8px rgb(184, 219, 218);
+    border: 2px solid rgb(184, 219, 218);
+}
+
+.turnX{
+    color: rgb(49, 237, 227);
+    font-size: 40px;
+}
+
+.turnO{
+    color: rgb(184, 219, 218);
+    font-size: 40px;
 }
