@@ -10,14 +10,14 @@ In this directory, I've paired CSS styling with HTML projects to create visually
 
 ### 1. Form.css
 
-![Form Image](Triweb-Learning\CSS\images\form.png)
+![Form Image](Triweb-Learning/CSS/images/form.png)
 
 **Description:**  
 Form.css provides styling for the simple registration form found in the Form.html project. It showcases how CSS can be used to enhance the layout, colors, and visual elements of web forms.
 
 ### 2. TimeTable.css
 
-![TimeTable Image](Triweb-Learning\CSS\images\timetable.png)
+![TimeTable Image](Triweb-Learning/CSS/images/timetable.png)
 
 **Description:**  
 TimeTable.css is the stylesheet for the TimeTable.html project. It adds styling to the personal time-table, improving its readability and overall aesthetics.
