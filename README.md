@@ -53,19 +53,19 @@ git push origin <branch>
   - 📂 **React**
     - Contains practice files of React.js. [Visit](https://github.com/aastha-cse/Triweb-Learning/tree/main/React)
 
+## Explore the README Section
 
-
-  
-## JavaScript Practice
-
-In the `JavaScript` directory, I've practiced JavaScript concepts.Some of them include:
-  
-- `toggleText.html` and `toggleText.js`: A basic interactive webpage that allows you to toggle text and image and add text using prompt box.
-- `date.js` and `digitalClock.js`: Practiced Date methods.
-- `arrayMethods.js`: Practiced Array methods.
-- `regex.js`: Practiced Regular Expressions and its methods.
-- `iteratorGenerator.js`: Practiced iterator and generator functions.
-- `promiseChaining.js`: Practiced promise chaining.
+| Folder Name        | Link to README                                                                         |
+|--------------------|----------------------------------------------------------------------------------------|
+| HTML               | [README.md](https://github.com/aastha-cse/Triweb-Learning/blob/main/HTML/README.md)    |
+| CSS                | [README.md](https://github.com/aastha-cse/Triweb-Learning/blob/main/CSS/README.md)     |
+| JavaScript         | [README.md](#array-methods)                                                            |
+| Projects           | [README.md](#regex)                                                                    |
+| MySQL              | [README.md](#iterator-and-generator-functions)                                         |
+| ES6                | [README.md](https://github.com/aastha-cse/Triweb-Learning/blob/main/ES6/README.md)     |
+| NodeJS             | [README.md](#toggletext)                                                               |
+| Typescript         | [README.md](#date)                                                                     |
+| React              | [README.md](#array-methods)                                                            |
 
 ## Basic Projects
 In the `Projects` directory, I've practiced JavaScript by creating interactive web elements and simple applications. The projects include:
