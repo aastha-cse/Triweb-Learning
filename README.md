@@ -1,3 +1,7 @@
+<p align="center">
+<img width="400" height="150" src="https://github.com/aastha-cse/Triweb-Learning/assets/100745494/9920b250-1ce0-44f6-8c65-5ec48a16ec96">
+</p>
+
 # My Learning Repository
 
 This repository contains my practice projects and exercises for Git, HTML, CSS, JavaScript, and MySQL.
@@ -78,6 +82,12 @@ In the `Projects` directory, I've practiced JavaScript by creating interactive w
 - `HTML-CSS-JS-Project`: Added validations to the form that I've created above.
 
 Feel free to explore each directory to see the code and projects I've been working on!
+
+### Connect with Me
+
+- [Linkedin](https://www.linkedin.com/in/aastha-gupta-507380229/)
+- [Twitter](https://twitter.com/AasthaGupt38023)
+
 
 ---
 
