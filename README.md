@@ -41,6 +41,9 @@ git push origin <branch>
   - 📂 **MySQL**
     - Contains practice files of MySQL queries. [Visit](https://github.com/aastha-cse/Triweb-Learning/tree/main/MySQL)
 
+  - 📂 **MongoDB**
+    - Contains practice files of MongoDB concepts. [Visit](https://github.com/aastha-cse/Triweb-Learning/tree/main/MongoDB)
+
   - 📂 **ES6**
     - Contains practice files of ES6. [Visit](https://github.com/aastha-cse/Triweb-Learning/tree/main/ES6)
   
@@ -59,12 +62,13 @@ git push origin <branch>
 |--------------------|----------------------------------------------------------------------------------------|
 | HTML               | [README.md](https://github.com/aastha-cse/Triweb-Learning/blob/main/HTML/README.md)    |
 | CSS                | [README.md](https://github.com/aastha-cse/Triweb-Learning/blob/main/CSS/README.md)     |
-| JavaScript         | [README.md](#array-methods)                                                            |
-| Projects           | [README.md](#regex)                                                                    |
-| MySQL              | [README.md](#iterator-and-generator-functions)                                         |
+| JavaScript         | [README.md](https://github.com/aastha-cse/Triweb-Learning/blob/main/JavaScript/README.md)|
+| Projects           | [README.md](https://github.com/aastha-cse/Triweb-Learning/blob/main/Projects/README.md)                                                                    |
+| MySQL              | [README.md](https://github.com/aastha-cse/Triweb-Learning/blob/main/MySQL/README.md)                                                                                                           |
+| MongoDB            | [README.md](https://github.com/aastha-cse/Triweb-Learning/blob/main/MongoDB/README.md)
 | ES6                | [README.md](https://github.com/aastha-cse/Triweb-Learning/blob/main/ES6/README.md)     |
-| NodeJS             | [README.md](#toggletext)                                                               |
-| Typescript         | [README.md](#date)                                                                     |
+| NodeJS             | [README.md](https://github.com/aastha-cse/Triweb-Learning/blob/main/NodeJS/README.md)                                                                                                           |
+| Typescript         | [README.md](https://github.com/aastha-cse/Triweb-Learning/blob/main/TypeScript/README.md)                                                                     |
 | React              | [README.md](#array-methods)                                                            |
 
 ## Basic Projects
@@ -73,27 +77,6 @@ In the `Projects` directory, I've practiced JavaScript by creating interactive w
 - `BasicJSProject`: Involves interactive boxes that dynamically display entered text when moved to specific positions, demonstrating simple DOM manipulation and interactivity.
 - `HTML-CSS-JS-Project`: Added validations to the form that I've created above.
 
-## MySQL Practice
-In the `MySQL` directory, I've explored MySQL and its usage in web development. Some of the examples include:
-  
-- `createTable.txt`: Creating and querying a sample database and tables.
-- `CRUD.txt`: Demonstrating basic SQL operations like INSERT, UPDATE, DELETE.
-- `joins.txt`: Demonstrating types of joins like INNER, LEFT, RIGHT.
-
-## ES6 Practice
-In the `ES6` directory, I've practiced commonly used features of ES6. Some of the examples include:
-  
-- `math.js`: Explored some new math methods.
-- `spread.js`: Demonstrating the use of spread operator.
-- `propertyShorthand.js`: Demonstrating shorthand syntax for objects.
-
-## NodeJS Practice
-In the `NodeJS` directory, I've practiced creating routes, handling requests, connecting to databases and performing CRUD operations. 
-I've used Postman - a popular collaboration platform for API development that simplifies the process of building, testing, and documenting APIs. Some of the examples include:
-  
-- `calculator.js`: Demonstrating the methods to create routers and controllers and perform mathematical operations.
-- `user.js`: Demonstrating the CRUD operations performed with the help of sequelize library.
-
 Feel free to explore each directory to see the code and projects I've been working on!
 
 ---
@@ -101,4 +84,3 @@ Feel free to explore each directory to see the code and projects I've been worki
 Feel free to clone or fork this repository to explore the code and projects. If you have any suggestions or improvements, feel free to contribute by creating pull requests.
 
 Happy coding!
-
