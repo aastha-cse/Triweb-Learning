@@ -4,7 +4,7 @@
 
 # My Learning Repository
 
-This repository contains my practice projects and exercises for Git, HTML, CSS, JavaScript, and MySQL.
+This repository contains my practice projects and exercises for Git, HTML, CSS, JavaScript, MySQL and React.
 
 ## Prerequisites
 
@@ -75,11 +75,7 @@ git push origin <branch>
 | Typescript         | [README.md](https://github.com/aastha-cse/Triweb-Learning/blob/main/TypeScript/README.md)                                                                     |
 | React              | [README.md](#array-methods)                                                            |
 
-## Basic Projects
-In the `Projects` directory, I've practiced JavaScript by creating interactive web elements and simple applications. The projects include:
-  
-- `BasicJSProject`: Involves interactive boxes that dynamically display entered text when moved to specific positions, demonstrating simple DOM manipulation and interactivity.
-- `HTML-CSS-JS-Project`: Added validations to the form that I've created above.
+
 
 Feel free to explore each directory to see the code and projects I've been working on!
 
