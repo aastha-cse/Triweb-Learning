@@ -25,10 +25,8 @@ For API testing and interaction, you can refer to the following endpoints:
 
 ## Technologies Used
 
-<div align="center">
 
 ![express](https://img.shields.io/bower/v/express?logo=express&label=express&color=blue)
 ![typescript](https://img.shields.io/bower/v/typescript?logo=typescript&logoColor=blue&label=typescript&color=light%20green%20)
 ![mongoose](https://img.shields.io/bower/v/mongoose?logo=mongoose&label=mongoose&color=orange)
 
-</div>
