@@ -2,7 +2,11 @@
 
 Welcome to the Interactive Text Display project! This project allows you to input text, choose a position, and display that text in one of four block spaces.
 
-![Project Demo](demo.gif)
+
+
+
+https://github.com/aastha-cse/Triweb-Learning/assets/100745494/6ad6271a-4815-4474-817c-69065485d5b2
+
 
 ## Table of Contents
 
@@ -38,11 +42,16 @@ This project is a simple interactive web application that lets you enter text, c
 
 1. Write button functionality - retrieves user input from an HTML input element with the ID 'text' and displays an alert message if the input is empty, prompting the user to enter text or alerts them to choose where to write the text otherwise.
 
-
-![Write button](screenshot1.png)
+<p align="center">
+<img src="https://github.com/aastha-cse/Triweb-Learning/assets/100745494/fb924252-ddaa-45df-92b5-bbf00d267598" width="500" >
+</p>
 
 2. Move text functionality - clear the content of a container element with the ID of content using the 'erase' function and then inserts the 'text' variable's value into that container, effectively moving the text to 'content1'.
-![Move button](screenshot2.png)
+
+<p align="center">
+<img src="https://github.com/aastha-cse/Triweb-Learning/assets/100745494/313329e1-6285-472e-8892-9a940e3a17fe" width="500">
+</p>
+
 Similarly create a move function fo the remaining three container elements.
 
 ## Contributing
