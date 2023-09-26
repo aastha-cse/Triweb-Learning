@@ -6,14 +6,16 @@ Welcome to the HTML directory! Here, you'll find a collection of HTML projects a
 
 ### 1. Form.html
 
-![Form Image](https://drive.google.com/file/d/1OfyB_Avfq2dCto5nFvU0yPSIOKekFEHj/view?usp=drive_link)
+<img width="400" alt="Screenshot 2023-09-26 172156" src="https://github.com/aastha-cse/Triweb-Learning/assets/100745494/652aa54e-b66a-4f35-8e88-9f5a4237fb94">
+
 
 **Description:**  
 Form.html is a simple registration form. It demonstrates the basics of HTML form elements, including input fields, labels, and buttons. Use it as a starting point for your own form projects or customize it to suit your needs.
 
 ### 2. TimeTable.html
 
-![TimeTable Image](https://drive.google.com/file/d/1PJjgz04XrD5eFIzDLgrxZezuEmTbEy7g/view?usp=sharing)
+<img width="550" alt="Screenshot 2023-09-26 172219" src="https://github.com/aastha-cse/Triweb-Learning/assets/100745494/2c108865-d47a-4fec-9ffc-29d994bd903c">
+
 
 **Description:**  
 TimeTable.html is a personal time-table template. It's a handy tool to organize your daily or weekly schedule. Feel free to modify it to create your own customized timetables for work, study, or any other activities.
