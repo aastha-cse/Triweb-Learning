@@ -31,49 +31,34 @@ git push origin <branch>
 ## Repository Structure
 - 📂 **Triweb-Learning**
   - 📂 **HTML**
-    - Contains HTML projects. [Visit](https://github.com/aastha-cse/Triweb-Learning/tree/main/HTML)
+    - Contains HTML projects. [Visit](https://github.com/aastha-cse/Triweb-Learning/blob/main/HTML/README.md)
 
   - 📂 **CSS**
-    - Added CSS to the HTML projects. [Visit](https://github.com/aastha-cse/Triweb-Learning/tree/main/CSS)
+    - Added CSS to the HTML projects. [Visit](https://github.com/aastha-cse/Triweb-Learning/blob/main/CSS/README.md)
   
   - 📂 **JavaScript**
-    - Contains JavaScript practice files. [Visit](https://github.com/aastha-cse/Triweb-Learning/tree/main/JavaScript)
+    - Contains JavaScript practice files. [Visit](https://github.com/aastha-cse/Triweb-Learning/blob/main/JavaScript/README.md)
   
   - 📂 **Projects**
-    - Contains HTML, CSS and JavaScript basic projects. [Visit](https://github.com/aastha-cse/Triweb-Learning/tree/main/Projects)
+    - Contains HTML, CSS and JavaScript basic projects. [Visit](https://github.com/aastha-cse/Triweb-Learning/blob/main/Projects/README.md)
   
   - 📂 **MySQL**
-    - Contains practice files of MySQL queries. [Visit](https://github.com/aastha-cse/Triweb-Learning/tree/main/MySQL)
+    - Contains practice files of MySQL queries. [Visit](https://github.com/aastha-cse/Triweb-Learning/blob/main/MySQL/README.md)
 
   - 📂 **MongoDB**
-    - Contains practice files of MongoDB concepts. [Visit](https://github.com/aastha-cse/Triweb-Learning/tree/main/MongoDB)
+    - Contains practice files of MongoDB concepts. [Visit](https://github.com/aastha-cse/Triweb-Learning/blob/main/MongoDB/README.md)
 
   - 📂 **ES6**
-    - Contains practice files of ES6. [Visit](https://github.com/aastha-cse/Triweb-Learning/tree/main/ES6)
+    - Contains practice files of ES6. [Visit](https://github.com/aastha-cse/Triweb-Learning/blob/main/ES6/README.md)
   
   - 📂 **NodeJS**
-    - Contains practice files of Node.js. [Visit](https://github.com/aastha-cse/Triweb-Learning/tree/main/NodeJS)
+    - Contains practice files of Node.js. [Visit](https://github.com/aastha-cse/Triweb-Learning/blob/main/NodeJS/README.md)
 
   - 📂 **Typescript**
-    - Contains practice files of Typescript. [Visit](https://github.com/aastha-cse/Triweb-Learning/tree/main/TypeScript)
+    - Contains practice files of Typescript. [Visit](https://github.com/aastha-cse/Triweb-Learning/blob/main/TypeScript/README.md)
 
   - 📂 **React**
-    - Contains practice files of React.js. [Visit](https://github.com/aastha-cse/Triweb-Learning/tree/main/React)
-
-## Explore the README Section
-
-| Folder Name        | Link to README                                                                         |
-|--------------------|----------------------------------------------------------------------------------------|
-| HTML               | [README.md](https://github.com/aastha-cse/Triweb-Learning/blob/main/HTML/README.md)    |
-| CSS                | [README.md](https://github.com/aastha-cse/Triweb-Learning/blob/main/CSS/README.md)     |
-| JavaScript         | [README.md](https://github.com/aastha-cse/Triweb-Learning/blob/main/JavaScript/README.md)|
-| Projects           | [README.md](https://github.com/aastha-cse/Triweb-Learning/blob/main/Projects/README.md)                                                                    |
-| MySQL              | [README.md](https://github.com/aastha-cse/Triweb-Learning/blob/main/MySQL/README.md)                                                                                                           |
-| MongoDB            | [README.md](https://github.com/aastha-cse/Triweb-Learning/blob/main/MongoDB/README.md)
-| ES6                | [README.md](https://github.com/aastha-cse/Triweb-Learning/blob/main/ES6/README.md)     |
-| NodeJS             | [README.md](https://github.com/aastha-cse/Triweb-Learning/blob/main/NodeJS/README.md)                                                                                                           |
-| Typescript         | [README.md](https://github.com/aastha-cse/Triweb-Learning/blob/main/TypeScript/README.md)                                                                     |
-| React              | [README.md](#array-methods)                                                            |
+    - Contains practice files of React.js. [Visit](https://github.com/aastha-cse/Triweb-Learning/blob/main/React/README.md)
 
 
 
