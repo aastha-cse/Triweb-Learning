@@ -2,6 +2,14 @@
 
 Welcome to the Quiz Manager Backend, a powerful API service that provides quiz creation, publishing, and management functionality. This backend project uses routers, controllers, and modules to handle quiz-related operations. User authentication is secured with JWT, and MongoDB serves as the database. You can interact with the backend using Postman or integrate it into your frontend application.
 
+## Technologies Used
+
+
+![express](https://img.shields.io/bower/v/express?logo=express&label=express&color=blue)
+![typescript](https://img.shields.io/bower/v/typescript?logo=typescript&logoColor=blue&label=typescript&color=light%20green%20)
+![mongoose](https://img.shields.io/bower/v/mongoose?logo=mongoose&label=mongoose&color=orange)
+
+
 ## Features
 
 - **User Authentication**: Secure your APIs with JWT-based user authentication.
@@ -23,10 +31,4 @@ For API testing and interaction, you can refer to the following endpoints:
 - **POST /quizzes/submit**: Submit a completed quiz.
 - **GET /quizzes/reports**: View quiz reports.
 
-## Technologies Used
-
-
-![express](https://img.shields.io/bower/v/express?logo=express&label=express&color=blue)
-![typescript](https://img.shields.io/bower/v/typescript?logo=typescript&logoColor=blue&label=typescript&color=light%20green%20)
-![mongoose](https://img.shields.io/bower/v/mongoose?logo=mongoose&label=mongoose&color=orange)
 
