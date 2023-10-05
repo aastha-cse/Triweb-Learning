@@ -15,21 +15,25 @@ export const Projects = () => {
       title: "Todo-List",
       description: "May, 2023",
       imgUrl: projImg1,
+      link: "https://github.com/aastha-cse/Todo-list",
     },
     {
       title: "Mini Chat App",
       description: "December, 2022 - January, 2023",
       imgUrl: projImg2,
+      link: "https://github.com/aastha-cse/My-chat-app",
     },
     {
       title: "Spotify Clone",
       description: "June, 2022 - July, 2022",
       imgUrl: projImg3,
+      link: "https://github.com/aastha-cse/My-web-project",
     },
     {
       title: "Digital Art",
       description: "November, 2021 - December, 2021",
       imgUrl: projImg4,
+      link: "https://github.com/aastha-cse/My-python-project",
     },
     
   ];
