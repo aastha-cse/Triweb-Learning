@@ -41,6 +41,11 @@ git push origin <branch>
   
   - 📂 **Projects**
     - Contains HTML, CSS and JavaScript basic projects. [Visit](https://github.com/aastha-cse/Triweb-Learning/blob/main/Projects/README.md)
+      - BasicJsProject - Created a project to demonstrate DOM manipulation. [Visit](https://github.com/aastha-cse/Triweb-Learning/blob/main/Projects/BasicJSProject/README.md)
+      - HTML-CSS-JS-Project - Added JavaScript to the form and timetable. [Visit](https://github.com/aastha-cse/Triweb-Learning/blob/main/Projects/HTML-CSS-JS-Project/README.md)
+      - QuizManager - Created a Quiz App. [Visit](https://github.com/aastha-cse/Triweb-Learning/blob/main/Projects/QuizManager/README.md)
+      - Tic-tac-toe - Created tic-tac-toe game using React. [Visit](https://github.com/aastha-cse/Triweb-Learning/blob/main/Projects/TicTacToe/README.md)
+      - Portfolio - Created my personal portfolio using React. [Visit](https://github.com/aastha-cse/Triweb-Learning/blob/main/Projects/Portfolio/README.md)
   
   - 📂 **MySQL**
     - Contains practice files of MySQL queries. [Visit](https://github.com/aastha-cse/Triweb-Learning/blob/main/MySQL/README.md)
